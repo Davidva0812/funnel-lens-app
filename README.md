@@ -2,7 +2,7 @@
 
 <img width="100%" alt="screen" src="https://github.com/user-attachments/assets/43074c00-9ca6-4294-91ee-a37672c6a704" />
 
-<br />
+---
 
 A small v1 web app that helps marketers understand step-level funnel performance for popup campaigns and quickly spot where the biggest drop-offs happen.
 
