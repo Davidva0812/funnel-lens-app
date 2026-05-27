@@ -1,5 +1,7 @@
 # FunnelLens – Campaign Funnel Analytics
 
+<img width="100%" alt="screen" src="https://github.com/user-attachments/assets/43074c00-9ca6-4294-91ee-a37672c6a704" />
+
 A small v1 web app that helps marketers understand step-level funnel performance for popup campaigns and quickly spot where the biggest drop-offs happen.
 
 ---
@@ -25,7 +27,7 @@ http://localhost:5173
 
 ### How I understood the problem
 
-Merchants running popup campaigns only see the final overall conversion rate (e.g. 5%), but have no visibility into *where* the funnel leaks. A single bad step – like a friction-heavy email form – can silently kill conversions without the marketer ever knowing which step is the culprit. The job is to surface that hidden information clearly.
+Merchants running popup campaigns only see the final overall conversion rate (e.g. 5%), but have no visibility into *where* the funnel leaks. A single bad step can silently drain conversions without the marketer ever knowing which step is the culprit. The job is to surface that hidden information clearly.
 
 ### What I built as v1 (and what I left out)
 
@@ -61,11 +63,10 @@ Key design decision: all math lives in `analytics.js` with no Vue dependencies, 
 
 ### How I used AI tools
 
-I used Claude as a pair programmer throughout:
+I used Claude, Gemini as pair programmers:
 - **Scaffolding:** generated the initial Vite + Vue 3 + Tailwind project structure
 - **Component code:** drafted component templates which I then reviewed, adjusted, and refined (especially the funnel bar proportional widths and the color-coding logic)
 - **Insights copy:** helped draft the plain-language insight templates; I tuned the thresholds and wording for clarity
-- **This README:** structured with AI assistance, content is my own thinking
 
 The funnel logic (drop-off calculation, worst step selection, overall conversion) was written and verified by me independently. AI was a speed multiplier, not a replacement for understanding the problem.
 
